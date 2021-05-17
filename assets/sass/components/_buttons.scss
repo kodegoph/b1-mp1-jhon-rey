@@ -1,0 +1,73 @@
+// .button{
+//     width: 8rem;
+//     height: 40px;
+//     background-color: blue;
+//     line-height: 40px;
+//     text-align: center;
+//     color: white;
+// }
+
+.button{
+    width: 15.4rem;
+    height: 4.8rem;
+    border: solid 0.2rem white;
+    border-radius: 0.5rem;
+}
+
+.nav-button{
+  margin-left: 20rem;
+  margin-top: 0.8rem;
+}
+
+.nav-button a{
+   color: white;
+   text-align: center;
+    line-height: 4.8rem;
+}
+.button-blue{
+  background-color: #608AED; /* blue */
+  border: none;
+  border-radius: .5rem;
+  color: white;
+  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.4rem;
+  line-height: 4.8rem;
+  width: 17rem;
+
+}
+.button-pink {
+    background-color: #F18990; /* Pink */
+    border: none;
+    border-radius: .5rem;
+    color: white;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.4rem;
+    line-height: 4.8rem;
+    width: 20rem;
+  }
+  .icon-background{
+      height: 9.6rem;
+      width: 9.6rem;
+      background-color: #F5F5FA;
+      border-radius: 50%;
+      text-align: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+//   .icon-background i{
+//     height: 6.4rem;
+// }
+//   .icon-background svg{
+//     display: block;
+//     margin-top: 1.5rem;
+//   }
