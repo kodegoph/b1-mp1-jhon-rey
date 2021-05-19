@@ -80,14 +80,16 @@ h2 {
 
 h3 {
   font-size: 2.4rem;
-  line-height: 3.2em;
+  line-height: 3.2rem;
   font-weight: 300;
+  font-family: 'Epilogue', sans-serif;
 }
 
 h4 {
   font-size: 1.6rem;
-  line-height: 1.5rem;
+  line-height: 2rem;
   font-weight: 300;
+  font-family: 'Lato', sans-serif;
 }
 
 p {
@@ -138,6 +140,10 @@ a {
   gap: 1rem;
 }
 
+.grey {
+  color: #333333;
+}
+
 .button {
   width: 15.4rem;
   height: 4.8rem;
@@ -162,6 +168,7 @@ a {
   border: none;
   border-radius: .5rem;
   color: white;
+  text-transform: uppercase;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -210,12 +217,15 @@ a {
   color: #608AED;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   font-size: 1.4rem;
   line-height: 4.8rem;
   width: 17rem;
-  margin-top: 6rem;
-  margin-bottom: 13rem;
+  margin: 6rem auto 13rem auto;
+}
+
+.seven-a {
+  margin: 0 auto;
 }
 
 .cards {
@@ -233,6 +243,7 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 1rem auto;
 }
 
 .highlighted-cards {
@@ -251,6 +262,7 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   color: white;
+  margin: 1rem auto;
 }
 
 .transparent-cards {
@@ -278,6 +290,7 @@ a {
   background-color: #FFFFFF;
   padding: 3.2rem;
   border-radius: 1rem;
+  margin: 1rem auto;
 }
 
 .testimonials__profiles img {
@@ -300,7 +313,9 @@ a {
 .card-seven {
   padding: 3.2rem;
   background-color: #333333;
-  padding-top: 25rem;
+  max-height: 44.8rem;
+  height: 100%;
+  margin: 1rem auto;
 }
 
 .card-seven h3 {
@@ -309,6 +324,8 @@ a {
 
 .card-seven h4 {
   color: #FFFFFF;
+  margin-top: 28rem;
+  margin-bottom: 2rem;
 }
 
 .card-seven__second img {
@@ -316,17 +333,39 @@ a {
   height: 22.4rem;
 }
 
+.card-seven__upper {
+  max-width: 37rem;
+  width: 100%;
+  height: 22.4rem;
+  background-color: #D8D8D8;
+  margin: 1rem auto;
+}
+
 .second__details {
-  padding: 1.5rem;
+  padding: 2rem;
   padding-top: 3rem;
   background-color: #FFFFFF;
   padding-bottom: 5rem;
+  max-width: 37rem;
+  width: 100%;
+  height: 22.4rem;
+  margin: 1rem auto;
+}
+
+.second__details h3 {
+  margin-top: 2rem;
 }
 
 .card-seven__third-column {
   background-color: #FFFFFF;
   padding: 2rem;
+  margin: 1rem auto;
   margin-bottom: 2rem;
+  padding-bottom: 9rem;
+}
+
+.card-seven__third-column h3 {
+  margin-top: 2rem;
 }
 
 .card-seven__third-column p {
@@ -338,8 +377,25 @@ a {
   margin-top: 2rem;
 }
 
-.first {
-  padding-bottom: 5.2rem;
+.grey {
+  color: #C4C4C4;
+}
+
+.contact-blue {
+  background-color: #959DD2;
+  border-radius: .5rem;
+}
+
+.contact-pink {
+  background-color: #F18990;
+  border-radius: .5rem;
+}
+
+.contact-pink img {
+  max-width: 30rem;
+  max-height: 24rem;
+  width: auto;
+  height: auto;
 }
 
 .container {
@@ -739,6 +795,7 @@ header {
 }
 
 .hero-four__head {
+  margin-top: -10rem;
   background-color: #F18990;
   color: white;
   -webkit-box-pack: space-evenly;
@@ -786,6 +843,7 @@ header {
 }
 
 .hero-info_background {
+  top: 50%;
   background-color: #959DD2;
   padding: 7rem;
 }
@@ -795,6 +853,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 1rem auto;
 }
 
 .infos-icons {
@@ -913,11 +972,15 @@ header {
       justify-content: space-around;
 }
 
+.stars {
+  margin-top: 1rem;
+}
+
 footer {
   background-color: #13162B;
   color: white;
   margin: 0 auto;
-  padding-top: 20.7rem;
+  padding-top: 5rem;
 }
 
 .closing {
@@ -926,8 +989,37 @@ footer {
   display: flex;
   margin-top: 11rem;
   padding-bottom: 5rem;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  gap: 6rem;
+  padding-right: 0;
+}
+
+.closing__two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 11rem;
+  padding-bottom: 5rem;
+  gap: 6rem;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 0;
+}
+
+.footer-icons__head {
+  color: #A9C3FF;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.contact__details {
+  margin-top: 4.5rem;
+  margin-bottom: 4.5rem;
+  margin-left: 3.5rem;
+}
+
+.contact__details h4 {
+  margin-top: 2rem;
+  margin-bottom: 6rem;
 }
 /*# sourceMappingURL=main.css.map */

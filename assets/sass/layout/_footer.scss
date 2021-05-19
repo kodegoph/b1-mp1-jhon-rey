@@ -4,12 +4,39 @@ footer{
     background-color: #13162B;
     color: white;
     margin: 0 auto;
-    padding-top: 20.7rem;
+    padding-top: 5rem;
    
 }
 .closing{
     display: flex;
     margin-top: 11rem;
     padding-bottom: 5rem;
-    justify-content: space-between;
+    gap: 6rem;
+    padding-right: 0;
+    // justify-content: space-between;
+}
+
+.closing__two{
+    display: flex;
+    margin-top: 11rem;
+    padding-bottom: 5rem;
+    gap: 6rem;
+    justify-content: flex-end;
+    padding-right: 0;
+    // justify-content: space-between;
+}
+
+.footer-icons__head{
+    color: #A9C3FF;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+.contact__details{
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;
+    margin-left: 3.5rem;
+}
+.contact__details h4{
+    margin-top: 2rem;
+    margin-bottom: 6rem;
 }
