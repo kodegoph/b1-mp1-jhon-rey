@@ -1,14 +1,34 @@
 .hero{
-    max-width: 144rem;
+    // max-width: 144rem;
+    // width: 100%;
+    // margin: 0 auto;
+    height: 100vh;
+    background-color: #4A56A7;
+}
+
+.hero__img {
+    display: block;
     width: 100%;
-    margin: 0 auto;
-    height: 90vh;
-    background-color: #5864BA;
+    max-width: 55rem;
+}
+.hero__img img{
+    display: block;
+    height: auto;
+    max-height: 65rem;
 }
 .hero__main{
     padding-top: 18rem;
     color: white;
+    display: block;
 }
+// .hero__profile{
+//     position: relative;
+// }
+.hero__profile img{
+    margin-top: -55rem;
+    margin-left: 5rem;
+}
+
 
 .hero__main h1{
     // display: block;
@@ -35,6 +55,7 @@
     background-color: #F5F5FA;
     padding-top: 0.1rem;
     padding-bottom: 20.3rem;
+    // text-align: center;
 }
 
 .hero-three{
@@ -51,6 +72,8 @@
 
 .hero-three__head{
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 10rem;
 }
 
@@ -59,6 +82,7 @@
 }
 .hero-three__head h2{
     margin: 2rem 0;
+ 
 }
 
 
@@ -70,20 +94,22 @@
     line-height: 4.8rem;
 }
 .hero-four{
-    position: relative;
+    // position: relative;
     background-color: #5864BA;
 }
 .hero-four__head{
     
-    display: flex;
+    // display: flex;
     background-color: #F18990;
-    margin: 0 11.2rem;
-    position: absolute;
-    top: -12rem;
+    // margin: 0 11.2rem;
+    // position: absolute;
+    // top: -12rem;
     color: white;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .hero-four__contents{
-    margin-top: 45.8rem;
+    margin-top: 5.8rem;
     margin-bottom: 24.3rem;
     color: white;
 }
@@ -113,36 +139,98 @@
 .fa-quote-right{
     color: #F18990;
 }
-.hero-six__infos{
+.hero-info_background{
     background-color: #959DD2;
+    padding: 7rem;
+    
+    
+}
+.hero-six__infos{
+    // background-color: #959DD2;
     color: #FFFFFF;
     display: flex;
-    padding: 7rem;
-    justify-content: space-between;
+    // padding: 5rem;
+    // justify-content: space-between;
+    // margin-top: 5rem;
+    // margin-bottom: 5rem;
+    
 }
 .infos-icons{
     background-color: #B2B8E6;
+    display: block;
     width: 9.4rem;
     height: 9.4rem;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
- 
+    padding: 0 2rem;
+    margin-right: 5rem;
 }
 .margin-top{
     margin-top: 1rem;
 }
 .hero-six{
-    position: relative;
+    // position: relative;
+    background-color: #F2F2F2;
 }
-.hero-six__upper{
-    position: absolute;
-    top: -12rem;
-    left: 18rem;
-    display: flex;
-    max-width: 1180px;
-	width: 100%;
+// .hero-six__upper{
+//     // position: absolute;
+//     // top: -12rem;
+//     // left: 18rem;
+//     display: flex;
+//     max-width: 117rem;
+// 	width: 100%;
   
-    border-radius: 2rem;
+//     border-radius: 2rem;
+// }
+.hero-six__main{
+    margin-top: 29.5rem;
+    margin-bottom: 19.3rem;
 }
+.hero-six__main h2{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.hero-six__main a{
+    margin-top: 3rem;
+}
+.hero-seven{
+    background-color: #F2F2F2;
+    padding-bottom: 27rem;
+}
+.hero-seven__head{
+    text-align: center;
+    width: 100%;
+    max-width: 47rem;
+    margin: 0 auto;
+    margin-bottom: 8rem;
+}
+.hero-seven__head h2{
+    margin: 3rem auto;
+}
+.second-p{
+    margin-bottom: 2rem;
+}
+
+.clinic-one img{
+    margin-top: 17rem;
+    max-width: 17rem;
+    max-height: 21.6rem;
+}
+.clinic-two img{
+    width: 25rem;
+    height: 32.6rem;
+}
+.clinic-five img{
+    width: 18rem;
+    height: 24.6rem;
+}
+.clinic-six img{
+    width: 17rem;
+    height: 28rem;
+}
+.clinics{
+    margin-top: 20rem;
+}
+

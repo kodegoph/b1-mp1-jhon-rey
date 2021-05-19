@@ -38,6 +38,13 @@ p {
     font-weight: 400;
     font-family: 'Lato', sans-serif;
 }
+
+.p-smaller{
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
 span {
     font-size: 2rem;
     line-height: 3.2rem;
@@ -56,5 +63,8 @@ a{
     font-size: 1.4rem;
     text-decoration: none;
     display: block;
+}
+.blue p{
+    color: #608AED;
 }
 

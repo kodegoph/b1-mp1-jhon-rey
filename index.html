@@ -1,69 +1,63 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/sass/base/_reset.scss" />
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300&display=swap"
-      rel="stylesheet"
-    />
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous"
+  />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300&family=Lato&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/sass/main.css" />
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    
   </head>
+  <body>
 
-  <header>
-    <nav>
-      <div class="container">
-        <div class="row">
-          <div class="column column-4">
-            <div class="logo">
-              <h2>DOC</h2>
-            </div>
-          </div>
-          <div class="column column-4">
-            <div class="menu">
-              <ul class="d-flex">
-                <li>About</li>
-                <li>Services</li>
-                <li>Blog</li>
-                <li>Contact</li>
-              </ul>
-            </div>
-          </div>
-          <div class="column column-4">
-            <div>
-              <div class="button nav-button">
-                <a href="#">APPOINTMENT</a>
+
+    <section class="hero">
+
+      <header>
+        <div class="container">
+          <div class="row">
+            <div class="column column-4">
+              <div class="logo">
+                <h2>DOC</h2>
               </div>
             </div>
+            <div class="column column-4">
+              <div class="menu">
+                <nav>
+                  <ul class="d-flex">
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <div class="column column-4">
+              <div>
+                <div class="button nav-button">
+                  <a href="#">APPOINTMENT</a>
+                </div>
+              </div>
+            </div>
+            <!-- column -->
           </div>
-          <!-- column -->
+          <!-- row -->
         </div>
-        <!-- row -->
-      </div>
-      <!-- container -->
-    </nav>
-  </header>
-  <body>
-    <section class="hero">
+        <!-- container -->
+      </header>
+
       <div class="container">
         <div class="row">
           <div class="column column-sm-6">
@@ -72,8 +66,8 @@
 
               <h1>Your Personal Doctor</h1>
               <p>
-                The sky was cloudless and of a deep dark blue <br>spectacle before
-                us was indeed sublime.
+                The sky was cloudless and of a deep dark blue <br />spectacle
+                before us was indeed sublime.
               </p>
 
               <a href="#" target="_blank">
@@ -83,48 +77,69 @@
           </div>
           <div class="column column-sm-6">
             <!-- <img src="./assets/img/profile4.jpg" alt=""> -->
+            <div class="hero__img">
+              <img src="./assets/img/doctor.png" alt="">
+            </div>
+            
+
           </div>
         </div>
       </div>
     </section>
 
     <section class="hero-two">
-      <div class="head">
-        <span>MEDICAL SERVICE</span>
-      <h2>Explore Service</h2>
-      <p>The sky was cloudless and of a deep dark blue <br>spectacle before us was indeed sublime.</p>
-    </div>
       <div class="container">
+        
+
+        <!-- <span>MEDICAL SERVICE</span>
+        <h2>Explore Service</h2>
+        <p>
+          The sky was cloudless and of a deep dark blue <br />spectacle before
+          us was indeed sublime.
+        </p> -->
+
+     
+
+
+        <div class="head">
+          <span>MEDICAL SERVICE</span>
+          <h2>Explore Service</h2>
+          <p>
+            The sky was cloudless and of a deep dark blue <br />spectacle before
+            us was indeed sublime.
+          </p>
+        </div>
+
+        
         <div class="row">
-          <div class="column column-3">
+          <div class="column column-sm-3">
             <div class="cards">
               <div class="icon-background">
-                <i class="fas fa-microscope fa-6x"></i>
-                  
+                <img src="./assets/img_two/dentist.png" alt="">
               </div>
               <p>Dentist</p>
             </div>
           </div>
           <!-- column -->
-          <div class="column column-3">
+          <div class="column column-sm-3">
             <div class="cards">
               <div class="icon-background">
-                <i class="fas fa-clipboard-list fa-6x"></i>
+                <img src="./assets/img_two/pediatrician.png" alt="">
               </div>
               <p>Pediatrician</p>
             </div>
           </div>
           <!-- column -->
-          <div class="column column-3">
+          <div class="column column-sm-3">
             <div class="cards">
               <div class="icon-background">
-                <i class="far fa-eye fa-6x"></i>
+                <img src="./assets/img_two/Health Care.png" alt="">
               </div>
               <p>Health care</p>
             </div>
           </div>
           <!-- column -->
-          <div class="column column-3">
+          <div class="column column-sm-3">
             <div class="highlighted-cards">
               <span>+15</span>
               <p>Explore More</p>
@@ -137,248 +152,499 @@
       <!-- container -->
     </section>
 
-<section class="hero-three">
-  <div class="hero-three__head">
-<span>WHY CHOSE ME</span>
-<h2>Explore Features</h2>
-<p>The sky was cloudless and of a deep dark blue <br> before us was indeed sublime.</p>
-</div>
-  <div class="container">
-    <div class="row">
-      <div class="column column-4">
-        <div class="transparent-cards">
-          <i class="fas fa-laptop-medical fa-6x"></i>
-          <h3>Professional</h3>
-          <p>Power to raise and purify our thoughts <br>like a strain of sacred music, or a noble<br> picture, or a passage.</p>
-        </div>
-      </div>
-      <!-- column -->
-      <div class="column column-4">
-        <div class="transparent-cards">
-          <i class="fas fa-stethoscope fa-6x"></i>
-          <h3>Affordable</h3>
-          <p>Raise and purify our thoughts like a strain of sacred music, or a noble picture, or a passage.</p>
-        </div>
-        </div>
-      
-      <!-- column -->
-      <div class="column column-4">
-        <div class="transparent-cards">
-          <i class="fas fa-syringe fa-6x"></i>
-          <h3>Professional</h3>
-          <p>Purify our thoughts like a strain of <br>sacred music, or a noble picture, or a <br>passage from the grander poets.</p>
-        </div>
-        </div>
-      </div>
-      <!-- column -->
-    </div>
-    <!-- row -->
-  </div>
-  <!-- container -->
-
-</section>
-
-<section class="hero-four">
-  <div class="hero-four__head">
-  <div class="hero-four__title">
-    <h2>Ask Me Anything!</h2>
-    <p>The sky was cloudless</p>
-  </div>
-  <div class="hero-four__button">
-    <a href="#" target="_blank">
-      <button class="button-blue">CONTACT ME</button>
-    </a>
-  </div>
-</div>
-  <div class="container">
-    <div class="row">
-      <div class="column column-6">
-        <div></div>
-      </div>
-      <!-- column -->
-  
-      <div class="column column-6">
-        <div class="hero-four__contents">
-          <p>SERVICE</p>
-          <h2>You Are In Good Hands</h2>
-          <p>Our thoughts like a strain of sacred music, or a noble picture, or a passage from the grander poets. Power to raise and purify our thoughts like a strain of sacred music.</p>
-          <a href="#"><button class="button-blue">Explore</button></a>
-        </div>
-      </div>
-      <!-- column -->
-    </div>
-    <!-- row -->
-  </div>
-  <!-- container -->
-</section>
-<!-- hero-four -->
-<section class=hero-five>
-  <div class="hero-five__heading">
-  <p>TESTIMONIALS</p>
-  <h2>Our Clients Say</h2>
-  <p>The sky was cloudless and of a deep dark blue spectacle before us was indeed sublime.</p>
-  </div>
-  <!-- hero 5 heading -->
-  <div class="container">
-    <div class="row">
-      <div class="column column-3">
-        <div class="cards-testimonials">
-          <i class="fas fa-quote-right fa-6x"></i>
-          <div class="testimonial__p">
-          <p>"Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line."</p>
-        </div>
-          <div class="d-flex testimonials__profiles">
-          <img src="./assets/img/profile1.jpg" alt="">
-          <div>
-          <p>Artem Sazonov</p>
-          <i class="fas fa-star fa-lg"></i>
-          <i class="fas fa-star fa-lg"></i>
-          <i class="fas fa-star fa-lg"></i>
-          <i class="fas fa-star fa-lg"></i>
-          <i class="fas fa-star fa-lg"></i>
-        </div>
-        </div>
-      </div>
-      </div>
-      <!-- column -->
-  
-      <div class="column column-3">
-        <div>
-          <div class="cards-testimonials">
-            <i class="fas fa-quote-right fa-6x"></i>
-            <div class="testimonial__p">
-            <p>"Has no control about the blind texts it is an almost unorthographic."</p>
-          </div>
-            <div class="d-flex testimonials__profiles">
-            <img src="./assets/img/profile2.png" alt="">
-            <div>
-            <p>Chioke Chinasa</p>
-            <i class="fas fa-star fa-lg"></i>
-            <i class="fas fa-star fa-lg"></i>
-            <i class="fas fa-star fa-lg"></i>
-            <i class="fas fa-star fa-lg"></i>
-            <i class="fas fa-star fa-lg"></i>
+    <section class="hero-three">
+      <div class="container">
+        <div class="row">
+          <div class="hero-three__head">
+            <span>WHY CHOSE ME</span>
+            <h2>Explore Features</h2>
+            <p>
+              The sky was cloudless and of a deep dark blue <br />
+              before us was indeed sublime.
+            </p>
           </div>
         </div>
-        </div>
-        <!-- testimonials -->
-        </div>
-      </div>
-      <!-- column -->
-      <div class="column column-3">
-        <div>
-          <div class="cards-testimonials">
-            <i class="fas fa-quote-right fa-6x"></i>
-            <div class="testimonial__p">
-            <p>"About the blind texts it is an almost unorthographic life One day however a small line of blind text by the name."</p>
+        <div class="row">
+          <div class="column column-sm-4">
+            <div class="transparent-cards">
+              <img src="./assets/img_two/professional.png" alt="">
+              <h3>Professional</h3>
+              <p>
+                Power to raise and purify our thoughts <br />like a strain of
+                sacred music, or a noble<br />
+                picture, or a passage.
+              </p>
             </div>
-            <div class="d-flex testimonials__profiles">
-            <img src="./assets/img/profile3.jpg" alt="">
-            <div>
-            <p>Huo Shu</p>
-            <i class="fas fa-star fa-lg"></i>
-            <i class="fas fa-star fa-lg"></i>
-            <i class="fas fa-star fa-lg"></i>
-            <i class="fas fa-star fa-lg"></i>
-            <i class="fas fa-star fa-lg"></i>
           </div>
-        </div>
-      </div>
-        </div>
-      </div>
-      <!-- column -->
-      <div class="column column-3">
-        <div>
-          <div class="cards-testimonials">
-            <i class="fas fa-quote-right fa-6x"></i>
-            <div class="testimonial__p">
-            <p>"One day however a small line of blind text by the name of Lorem Ipsum."</p>
+
+          <!-- column -->
+          <div class="column column-sm-4">
+            <div class="transparent-cards">
+              <img src="./assets/img_two/affordable.png" alt="">
+              <h3>Affordable</h3>
+              <p>
+                Raise and purify our thoughts like a strain of sacred music, or
+                a noble picture, or a passage.
+              </p>
             </div>
-            <div class="d-flex testimonials__profiles">
-            <img src="./assets/img/profile4.jpg" alt="">
-            <div>
-            <p>Jontray Arnold</p>
-            <i class="fas fa-star fa-lg"></i>
-            <i class="fas fa-star fa-lg"></i>
-            <i class="fas fa-star fa-lg"></i>
-            <i class="fas fa-star fa-lg"></i>
-            <i class="fas fa-star fa-lg"></i>
           </div>
+
+          <!-- column -->
+          <div class="column column-sm-4">
+            <div class="transparent-cards">
+              <img src="./assets/img_two/Great Facilities.png" alt="">
+              <h3>Great Facilities</h3>
+              <p>
+                Purify our thoughts like a strain of <br />sacred music, or a
+                noble picture, or a <br />passage from the grander poets.
+              </p>
+            </div>
           </div>
         </div>
-        </div>
       </div>
-      <!-- column -->
-      <div class="pins">
-      <svg width="76" height="8" viewBox="0 0 76 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect width="16" height="8" rx="4" fill="#F18990"/>
-        <circle cx="32" cy="4" r="4" fill="#6976C8"/>
-        <circle cx="52" cy="4" r="4" fill="#6976C8"/>
-        <circle cx="72" cy="4" r="4" fill="#6976C8"/>
-        </svg>
-      </div>
+    </section>
+
+    <section class="hero-four">
+      <div class="container">
+        <div class="row hero-four__head">
+          
+          
+          <div class="hero-four__title">
+            <h2>Ask Me Anything!</h2>
+            <p>The sky was cloudless</p>
+          </div>
+          <div class="hero-four__button">
+            <img src="./assets/img_two/ask me anything.png" alt="">
+            <a href="#" target="_blank">
+              <button class="button-blue">CONTACT ME</button>
+            </a>
+          </div>
         
-    </div>
-    <!-- row -->
-  </div>
-  <!-- container -->
+      </div>
+ 
+        <div class="row">
+          <div class="column column-sm-7">
+            <div>
+              <img src="./assets/img_two/you are in good hands.png" alt="">
+            </div>
+          </div>
+          <!-- column -->
 
-</section>
+          <div class="column column-sm-5">
+            <div class="hero-four__contents">
+              <p>SERVICE</p>
+              <h2>You Are In Good Hands</h2>
+              <p>
+                Our thoughts like a strain of sacred music, or a noble picture,
+                or a passage from the grander poets. Power to raise and purify
+                our thoughts like a strain of sacred music.
+              </p>
+              <a href="#"><button class="button-blue">Explore</button></a>
+            </div>
+          </div>
+          <!-- column -->
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </section>
 
-<section class="hero-six">
+    <section class="hero-five">
+      <!-- hero 5 heading -->
+      <div class="container">
+        <div class="row">
+          <div class="hero-five__heading">
+            <p>TESTIMONIALS</p>
+            <h2>Our Clients Say</h2>
+            <p>
+              The sky was cloudless and of a deep dark blue spectacle before us
+              was indeed sublime.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column column-sm-3">
+            <div class="cards-testimonials">
+              <i class="fas fa-quote-right fa-6x"></i>
+              <div class="testimonial__p">
+                <p>
+                  "Even the all-powerful Pointing has no control about the blind
+                  texts it is an almost unorthographic life One day however a
+                  small line."
+                </p>
+              </div>
+              <div class="d-flex testimonials__profiles">
+                <img src="./assets/img/profile1.jpg" alt="" />
+                <div>
+                  <p>Artem Sazonov</p>
+                  <i class="fas fa-star fa-lg"></i>
+                  <i class="fas fa-star fa-lg"></i>
+                  <i class="fas fa-star fa-lg"></i>
+                  <i class="fas fa-star fa-lg"></i>
+                  <i class="fas fa-star fa-lg"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- column -->
+          <div class="column column-sm-3">
+            <div>
+              <div class="cards-testimonials">
+                <i class="fas fa-quote-right fa-6x"></i>
+                <div class="testimonial__p">
+                  <p>
+                    "Has no control about the blind texts it is an almost
+                    unorthographic."
+                  </p>
+                </div>
+                <div class="d-flex testimonials__profiles">
+                  <img src="./assets/img/profile2.png" alt="" />
+                  <div>
+                    <p>Chioke Chinasa</p>
+                    <i class="fas fa-star fa-lg"></i>
+                    <i class="fas fa-star fa-lg"></i>
+                    <i class="fas fa-star fa-lg"></i>
+                    <i class="fas fa-star fa-lg"></i>
+                    <i class="fas fa-star fa-lg"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- testimonials -->
+            </div>
+          </div>
+          <!-- column -->
+          <div class="column column-sm-3">
+            <div>
+              <div class="cards-testimonials">
+                <i class="fas fa-quote-right fa-6x"></i>
+                <div class="testimonial__p">
+                  <p>
+                    "About the blind texts it is an almost unorthographic life
+                    One day however a small line of blind text by the name."
+                  </p>
+                </div>
+                <div class="d-flex testimonials__profiles">
+                  <img src="./assets/img/profile3.jpg" alt="" />
+                  <div>
+                    <p>Huo Shu</p>
+                    <i class="fas fa-star fa-lg"></i>
+                    <i class="fas fa-star fa-lg"></i>
+                    <i class="fas fa-star fa-lg"></i>
+                    <i class="fas fa-star fa-lg"></i>
+                    <i class="fas fa-star fa-lg"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- column -->
+          <div class="column column-sm-3">
+            <div>
+              <div class="cards-testimonials">
+                <i class="fas fa-quote-right fa-6x"></i>
+                <div class="testimonial__p">
+                  <p>
+                    "One day however a small line of blind text by the name of
+                    Lorem Ipsum."
+                  </p>
+                </div>
+                <div class="d-flex testimonials__profiles">
+                  <img src="./assets/img/profile4.jpg" alt="" />
+                  <div>
+                    <p>Jontray Arnold</p>
+                    <i class="fas fa-star fa-lg"></i>
+                    <i class="fas fa-star fa-lg"></i>
+                    <i class="fas fa-star fa-lg"></i>
+                    <i class="fas fa-star fa-lg"></i>
+                    <i class="fas fa-star fa-lg"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- column -->
+        </div>
+        <!-- <div class="row">
+          <div class="pins">
+            <svg
+              width="76"
+              height="8"
+              viewBox="0 0 76 8"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="16" height="8" rx="4" fill="#F18990" />
+              <circle cx="32" cy="4" r="4" fill="#6976C8" />
+              <circle cx="52" cy="4" r="4" fill="#6976C8" />
+              <circle cx="72" cy="4" r="4" fill="#6976C8" />
+            </svg>
+          </div>
+        </div> -->
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </section>
 
+    <section class="hero-six">
       <div class="hero-six__upper">
+        <div class="container">
+          <div class="row hero-info_background">
+            <div class="column column-sm-4">
+              <div>
+                <div class="hero-six__infos">
+                  <div class="infos-icons">
+                    <img src="./assets/img_two/73 professional.png" alt="">
+                  </div>
+                  <div class="margin-top">
+                    <h2 class="h3">73%</h2>
+                    <p>Professional</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- column -->
 
-        <div class="hero-six__infos">
-          <div class="infos-icons">
-          <i class="fas fa-business-time fa-5x"></i>
-        </div>
-          <div class="margin-top">
-          <h2 class="h3">73%</h2>
-          <p>Professional</p>
-        </div>
-        </div>
-     
-        <div class="hero-six__infos">
-          <div class="infos-icons">
-          <i class="fas fa-business-time fa-5x"></i>
-        </div>
-          <div class="margin-top">
-          <h2 class="h3">73%</h2>
-          <p>Professional</p>
-        </div>
-        </div>
+            <div class="column column-sm-4">
+              <div>
+                <div class="hero-six__infos">
+                  <div class="infos-icons">
+                    <img src="./assets/img_two/42k affordaable.png" alt="">
+                  </div>
+                  <div class="margin-top">
+                    <h2 class="h3">4k</h2>
+                    <p>Affordable</p>
+                  </div>
+                </div>
+                <!-- 2nd item -->
+              </div>
+            </div>
+            <!-- column -->
 
-        <div class="hero-six__infos">
-          <div class="infos-icons">
-          <i class="fas fa-business-time fa-5x"></i>
+            <div class="column column-sm-4">
+              <div>
+                <div class="hero-six__infos">
+                  <div class="infos-icons">
+                    <img src="./assets/img_two/90 insurance.png" alt="">
+                  </div>
+                  <div class="margin-top">
+                    <h2 class="h3">+90</h2>
+                    <p>Insurance</p>
+                  </div>
+                </div>
+                <!-- 3rd item hero six infos -->
+              </div>
+            </div>
+            <!-- column -->
+          </div>
+          <!-- row -->
         </div>
-          <div class="margin-top">
-          <h2 class="h3">73%</h2>
-          <p>Professional</p>
+        <!-- container -->
+
+        <!-- 1st item -->
+      </div>
+      <!-- parent div -->
+
+      <div class="container">
+        <div class="row">
+          <div class="column column-sm-6">
+            <div class="hero-six__main">
+              <div class="color-blue">
+                <p>GALLERY</p>
+              </div>
+              <h2>Watch Photos Our Healthcare Clinic</h2>
+
+              <div class="d-flex">
+                <div>
+                  <img src="./assets/img_two/Oval.png" alt="">
+                </div>
+                
+              <p>Power to raise and purify our thoughts like</p>
+              </div>
+              
+              <div class="d-flex">
+                <div>
+                  <img src="./assets/img_two/Oval.png" alt="">
+                </div>
+                
+              <p>Like a strain of sacred music, or a noble picture</p>
+              </div>
+              
+              <div class="d-flex">
+                <div>
+                  <img src="./assets/img_two/Oval.png" alt="">
+                </div>
+                
+              <p>Grander poets to raise and purify our thoughts</p>
+              </div>
+              
+
+              <a href="#"><button class="button-blue">Explore</button></a>
+
+            </div>
+          </div>
+          <!-- column -->
+
+          <div class="column column-sm-6">
+            <div>
+              <img src="./assets/img_two/clinic photos.png" alt="">
+
+
+
+            </div>
+          </div>
+          <!-- column -->
         </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+
+      <!-- container -->
+    </section>
+
+    <section class="hero-seven">
+      <div class="container">
+        <div class="row">
+          <div class="hero-seven__head">
+            <p>MY BLOG</p>
+            <h2>Latest Articles</h2>
+            <p>
+              The sky was cloudless and of a deep dark blue spectacle before us
+              was indeed sublime.
+            </p>
+          </div>
         </div>
-        <!-- hero six infos -->
+        <div class="row">
+          <div class="column column-sm-4">
+            <div class="card-seven">
+              <h4>21 July 2020</h4>
+              <h3 class=".h3">Your Medical Records</h3>
+            </div>
+          </div>
+          <!-- column -->
+
+          <div class="column column-sm-4">
+            <div class="card-seven__second">
+              <img src="./assets/img/article landscape.png" alt="" />
+              <div class="second__details">
+                <h4>20 July 2020</h4>
+                <p>Are drugs the best solution?</p>
+              </div>
+            </div>
+          </div>
+          <!-- column -->
+
+          <div class="column column-sm-4">
+            <div class="card-seven__third-column first">
+              <h4>19 July 2020</h4>
+              <div><p>2020 Best USA Hospitals and Clinics</p></div>
+            </div>
+            <div class="card-seven__third-column">
+              <h4>18 July 2020</h4>
+              <p>It’s always the word of mouth that’s the best</p>
+            </div>
+          </div>
+          <!-- column -->
+
+          <a href="#"><button class="button-white">EXPLORE BLOG</button></a>
+        </div>
+        <!-- row -->
+
+        <div class="row">
+          <div class="column column-sm-5">
+            <div class="logo">
+              <img src="./assets/img_two/digital side.png" alt="">
+              <img src="./assets/img_two/vortex.png" alt="">
+            </div>
+          </div>
+          <!-- column -->
+
+          <div class="column column-sm-5">
+            <div class="logo">
+              <img src="./assets/img_two/travel explorer.png" alt="">
+              <img src="./assets/img_two/fuzion.png" alt="">
+            </div>
+          </div>
+          <!-- column -->
+
+          <div class="column column-sm-2">
+            <div class="logo">
+              <img src="./assets/img_two/mediafury.png" alt="">
+            </div>
+          </div>
+          <!-- column -->
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="column column-sm-3">
+            <div>
+              <h2>DOC</h2>
+            </div>
+          </div>
+          <!-- column -->
+
+          <div class="column column-sm-3">
+            <div>
+              <ul>
+                <span>MENU</span>
+                <li>About</li>
+                <li>Services</li>
+                <li>Blog</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+          </div>
+          <!-- column -->
+
+          <div class="column column-sm-3">
+            <div>
+              <ul>
+                <span>SERVICE</span>
+                <li>Dentist</li>
+                <li>Pediatrician</li>
+                <li>Health care</li>
+                <li>See more</li>
+              </ul>
+            </div>
+          </div>
+          <!-- column -->
+
+          <div class="column column-sm-3">
+            <div>
+              <span>SOCIAL</span>
+              <i class="fab fa-facebook-square fa-4x"></i>
+              <i class="fab fa-twitter-square fa-4x"></i>
+              <i class="fab fa-instagram-square fa-4x"></i>
+            </div>
+          </div>
+          <!-- column -->
+        </div>
+        <!-- row -->
+        <div class="row">
+          <div class="column column-sm-6">
+            <div class="closing">
+              <p>Copyright © 2020 Laaqiq. All Rights Reserved.</p>
+            </div>
+          </div>
+          <!-- column -->
+
+          <div class="column column-sm-6">
+            <div class="closing">
+              <p>Terms of Use</p>
+              <p>Privacy Policy</p>
+            </div>
+          </div>
+          <!-- column -->
+        </div>
+        <!-- row -->
       </div>
 
-  
-  <!-- container -->
-</section>
+      <!-- container -->
+    </footer>
   </body>
 </html>
-
-<div class="container">
-  <div class="row">
-    <div class="column column-4">
-      <div></div>
-    </div>
-    <!-- column -->
-
-    <div class="column column-4">
-      <div></div>
-    </div>
-    <!-- column -->
-  </div>
-  <!-- row -->
-</div>
-<!-- container -->

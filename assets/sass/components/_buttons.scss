@@ -36,6 +36,7 @@
   font-size: 1.4rem;
   line-height: 4.8rem;
   width: 17rem;
+  // margin-top: -5rem;
 
 }
 .button-pink {
@@ -63,7 +64,26 @@
     justify-content: center;
   }
   
+  .button-white{
+    background-color: #ffff; /* blue */
+    border: .2rem solid #608AED;
+    border-radius: .25em;
+    color: #608AED;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.4rem;
+    line-height: 4.8rem;
+    width: 17rem;
+    margin-top: 6rem;
+   margin-bottom: 13rem;
+  }
 
+  // .hero-four__button a{
+  //   margin-top: -25rem;
+  //   margin-left: 25rem;
+  // }
 //   .icon-background i{
 //     height: 6.4rem;
 // }
