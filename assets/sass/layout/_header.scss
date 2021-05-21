@@ -18,11 +18,52 @@ header{
 }
 .menu ul li{
     line-height: 6.4rem;
+
+    &:hover {
+		transform: translateY(10px);
+		background-position: center 100%;
+		background-size: 105%;
+		box-shadow: 0px 0px 20px 0px rgba(#777777, 0.6);
+
+		.card__button {
+			transform: translateY(0%);
+			color: #027090;
+
+			transition: all 0.3s;
+		}
+	}
 }
-.logo{
+.logo_head{
     margin-top: 1rem;
 }
-.logo h2{
+.logo_head img{
+    display: none;
+}
+.logo_head h2{
     line-height: 4.8rem;
     font-size: 4rem;  
+    margin-right: auto;
+
+
+    &:hover {
+		transform: translateY(-10px);
+		background-position: center 100%;
+		background-size: 105%;
+		box-shadow: 0px 0px 20px 0px rgba(#777777, 0.6);
+
+		.card__button {
+			transform: translateY(0%);
+			color: #027090;
+
+			transition: all 0.3s;
+		}
+	}
+}
+@media screen and (max-width: 576px) {
+    .logo h2{
+        margin-right: auto;
+    }
+    .logo_head img{
+        display: block;
+    }
 }

@@ -19,16 +19,19 @@
     <link rel="stylesheet" href="./assets/sass/main.css" />
   </head>
   <body>
-    <section class="hero">
+
+
+    <section id="hero" class="hero">
       <header>
         <div class="container">
           <div class="row">
-            <div class="column column-4">
-              <div class="logo">
+            <div class="column column-sm-4">
+              <div class="logo_head d-flex">
                 <h2>DOC</h2>
+                <img src="./assets/img_two/nav menu.png" alt="">
               </div>
             </div>
-            <div class="column column-4">
+            <div class="column column-sm-4">
               <div class="menu">
                 <nav>
                   <ul class="d-flex">
@@ -40,8 +43,8 @@
                 </nav>
               </div>
             </div>
-            <div class="column column-4">
-              <div>
+            <div class="column column-sm-4">
+              <div class="header__btn">
                 <div class="button nav-button">
                   <a href="#">APPOINTMENT</a>
                 </div>
@@ -53,10 +56,9 @@
         </div>
         <!-- container -->
       </header>
-
       <div class="container">
         <div class="row">
-          <div class="column column-sm-6">
+          <div class="column column-xl-6">
             <div class="hero__main">
               <p>DOCTOR</p>
 
@@ -71,9 +73,9 @@
               </a>
             </div>
           </div>
-          <div class="column column-sm-6">
+          <div class="column column-xl-6" style="padding-top:">
             <!-- <img src="./assets/img/profile4.jpg" alt=""> -->
-            <div class="hero__img">
+            <div class="hero__img" style=>
               <img src="./assets/img/doctor.png" alt="" />
             </div>
           </div>
@@ -94,8 +96,8 @@
           <span>MEDICAL SERVICE</span>
           <h2>Explore Service</h2>
           <p>
-            The sky was cloudless and of a deep dark blue <br />spectacle before
-            us was indeed sublime.
+            The sky was cloudless and of a deep dark blue spectacle before us
+            was indeed sublime.
           </p>
         </div>
 
@@ -192,8 +194,9 @@
       </div>
     </section>
 
-    <section class="hero-four">
-      <div class="container">
+
+    <section class="linear-background">
+      <div class="container head_relative">
         <div class="row hero-four__head">
           <div class="hero-four__title">
             <h2>Ask Me Anything!</h2>
@@ -206,10 +209,17 @@
             </a>
           </div>
         </div>
+      </div>
+    </section>
 
-        <div class="row">
+
+    <section class="hero-four">
+      <div class="container">
+
+
+        <div class="row hero-four__second">
           <div class="column column-sm-7">
-            <div>
+            <div class="service-img">
               <img src="./assets/img_two/you are in good hands.png" alt="" />
             </div>
           </div>
@@ -263,13 +273,12 @@
                 <div>
                   <p>Artem Sazonov</p>
                   <div class="stars">
-                  <i class="fas fa-star fa-lg"></i>
-                  <i class="fas fa-star fa-lg"></i>
-                  <i class="fas fa-star fa-lg"></i>
-                  <i class="fas fa-star fa-lg"></i>
-                  <i class="fas fa-star fa-lg"></i>
+                    <i class="fas fa-star fa-lg"></i>
+                    <i class="fas fa-star fa-lg"></i>
+                    <i class="fas fa-star fa-lg"></i>
+                    <i class="fas fa-star fa-lg"></i>
+                    <i class="fas fa-star fa-lg"></i>
                   </div>
-                  
                 </div>
               </div>
             </div>
@@ -295,7 +304,7 @@
                       <i class="fas fa-star fa-lg"></i>
                       <i class="fas fa-star fa-lg"></i>
                       <i class="fas fa-star fa-lg"></i>
-                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -323,7 +332,7 @@
                       <i class="fas fa-star fa-lg"></i>
                       <i class="fas fa-star fa-lg"></i>
                       <i class="fas fa-star fa-lg"></i>
-                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -350,7 +359,7 @@
                       <i class="fas fa-star fa-lg"></i>
                       <i class="fas fa-star fa-lg"></i>
                       <i class="fas fa-star fa-lg"></i>
-                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -439,19 +448,20 @@
       <!-- parent div -->
 
       <div class="container">
-        <div class="row">
+        <div class="row  margin-top-botm">
           <div class="column column-sm-6">
             <div class="hero-six__main">
-              <div class="color-blue">
-                <p>GALLERY</p>
+              <div>
+                <p  class="color-blue">GALLERY</p>
               </div>
               <h2>Watch Photos Our Healthcare Clinic</h2>
               <ul>
                 <li><p>Power to raise and purify our thoughts like</p></li>
-                <li><p> Like a strain of sacred music, or a noble picture</p></li>
+                <li>
+                  <p>Like a strain of sacred music, or a noble picture</p>
+                </li>
                 <li><p>Grander poets to raise and purify our thoughts</p></li>
               </ul>
-        
 
               <a href="#"><button class="button-blue">Explore</button></a>
             </div>
@@ -459,7 +469,7 @@
           <!-- column -->
 
           <div class="column column-sm-6">
-            <div>
+            <div class="gallery">
               <img src="./assets/img_two/clinic photos.png" alt="" />
             </div>
           </div>
@@ -476,7 +486,7 @@
       <div class="container">
         <div class="row">
           <div class="hero-seven__head">
-            <p>MY BLOG</p>
+            <p class="color-blue">MY BLOG</p>
             <h2>Latest Articles</h2>
             <p>
               The sky was cloudless and of a deep dark blue spectacle before us
@@ -495,9 +505,7 @@
 
           <div class="column column-sm-4">
             <div class="card-seven__second">
-              <div class="card-seven__upper">
-
-              </div>
+              <div class="card-seven__upper"></div>
               <!-- <img src="./assets/img/article landscape.png" alt="" /> -->
               <div class="second__details">
                 <h4 class="grey">20 July 2020</h4>
@@ -519,7 +527,9 @@
           </div>
           <!-- column -->
 
-          <a class="seven-a" href="#"><button class="button-white">EXPLORE BLOG</button></a>
+          <a class="seven-a" href="#"
+            ><button class="button-white">EXPLORE BLOG</button></a
+          >
         </div>
         <!-- row -->
 
@@ -551,56 +561,63 @@
       </div>
       <!-- container -->
     </section>
+      <section class="seven-cards__background">
+        <div class="container ">
+          <div class="row ">
+            <div class="column column-sm-6 seven-cards__background">
+              <div class="row contact-blue">
+                <div class="contact__details">
+                  <h3>+1 (234) 567-89-00</h3>
+                  <h4>Call to Me if You have any questions!</h4>
+                  <a href="#" target="_blank">
+                    <button class="button-blue">CONTACT ME</button>
+                  </a>
+                </div>
+                <div class="contact-me__img">
+                  <img src="./assets/img_two/contact-blue.png" alt="" />
+                </div>
+              </div>
+              <!-- blue contact -->
+            </div>
+            <div class="column column-sm-6">
+    
+              <div class="row contact-pink">
+                <div class="contact__details">
+                  <h3>Visit</h3>
+                  <h4>80 Fulton Ave. Lorain, OH 44052</h4>
+                  <a href="#" target="_blank">
+                    <button class="button-blue">Watch on map</button>
+                  </a>
+                </div>
+                <div class="watch__img">
+                  <img src="./assets/img_two/pink card.png" alt="" />
+                </div>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+    
 
     <footer>
 
-      <div class="container">
+      
 
-        <div class="row">
-          <div class="column column-sm-6">
-            
-            <div class="d-flex contact-blue">
-              <div class="contact__details">
-                <h3>+1 (234) 567-89-00</h3>
-            <h4>Call to Me if You have any questions!</h4>
-            <a href="#" target="_blank">
-              <button class="button-blue">CONTACT ME</button>
-            </a>
-              </div>
-              <img src="./assets/img_two/contact-blue.png" alt="">
-            </div>
-            
-            
+      <div class="container ">
 
-
-          </div>
-          <div class="column column-sm-6">
-
-            <div class="d-flex contact-pink">
-              <div class="contact__details">
-                <h3>Visit</h3>
-            <h4>80 Fulton Ave. Lorain, OH 44052</h4>
-            <a href="#" target="_blank">
-              <button class="button-blue">Watch on map</button>
-            </a>
-              </div>
-              <img src="./assets/img_two/pink card.png" alt="">
-            </div>
-            
-            
-
-          </div>
-        </div>
-        <div class="row">
+        <div class="row center">
           <div class="column column-sm-3">
-            <div>
+            <div class="footer-logo">
               <h2>DOC</h2>
             </div>
           </div>
           <!-- column -->
 
           <div class="column column-sm-3">
-            <div>
+            <div class="footer-menu">
               <ul>
                 <span class="footer-icons__head">MENU</span>
                 <li>About</li>
@@ -613,7 +630,7 @@
           <!-- column -->
 
           <div class="column column-sm-3">
-            <div>
+            <div class="footer-service">
               <ul>
                 <span class="footer-icons__head">SERVICE</span>
                 <li>Dentist</li>
@@ -626,10 +643,9 @@
           <!-- column -->
 
           <div class="column column-sm-3">
-            
-              <span class="footer-icons__head">SOCIAL</span>
-              <div>
-              <img src="./assets/img_two/social icons footer.png" alt="">
+            <span class="footer-icons__head">SOCIAL</span>
+            <div>
+              <img src="./assets/img_two/social icons footer.png" alt="" />
             </div>
           </div>
           <!-- column -->
@@ -638,7 +654,9 @@
         <div class="row">
           <div class="column column-sm-6">
             <div class="closing">
-              <p class="p-smaller">Copyright © 2020 Laaqiq. All Rights Reserved.</p>
+              <p class="p-smaller">
+                Copyright © 2020 Laaqiq. All Rights Reserved.
+              </p>
             </div>
           </div>
           <!-- column -->

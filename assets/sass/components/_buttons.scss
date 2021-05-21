@@ -8,15 +8,36 @@
 // }
 
 .button{
+    cursor: pointer;
     width: 15.4rem;
     height: 4.8rem;
-    border: solid 0.2rem white;
+    border: solid 0.05rem white;
     border-radius: 0.5rem;
+
+    &:hover {
+      transform: translateY(5px);
+      background-position: center 100%;
+      background-size: 105%;
+      box-shadow: 0px 0px 20px 0px rgba(#777777, 0.6);
+  
+      .card__button {
+        transform: translateY(0%);
+        color: #027090;
+  
+        transition: all 0.3s;
+      }
+    }
+    
 }
 
+// .header__btn{
+//   display: flex;
+//   justify-content: flex-end;
+// }
 .nav-button{
-  margin-left: 20rem;
+  // margin-left: 20rem;
   margin-top: 0.8rem;
+  margin-left: auto;
 }
 
 .nav-button a{
@@ -25,6 +46,7 @@
     line-height: 4.8rem;
 }
 .button-blue{
+  cursor: pointer;
   background-color: #608AED; /* blue */
   border: none;
   border-radius: .5rem;
@@ -38,19 +60,48 @@
   width: 17rem;
   // margin-top: -5rem;
 
+
+  &:hover {
+		transform: translateY(-20px);
+		background-position: center 100%;
+		background-size: 105%;
+		box-shadow: 0px 0px 20px 0px rgba(#777777, 0.6);
+
+		.card__button {
+			transform: translateY(0%);
+			color: #027090;
+
+			transition: all 0.3s;
+		}
+	}
 }
 .button-pink {
     background-color: #F18990; /* Pink */
     border: none;
     border-radius: .5rem;
     color: white;
-    
+    cursor: pointer;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 1.4rem;
     line-height: 4.8rem;
     width: 20rem;
+
+
+    &:hover {
+      transform: translateY(-20px);
+      background-position: center 100%;
+      background-size: 105%;
+      box-shadow: 0px 0px 20px 0px rgba(#777777, 0.6);
+  
+      .card__button {
+        transform: translateY(0%);
+        color: #027090;
+  
+        transition: all 0.3s;
+      }
+    }
   }
   .icon-background{
       height: 9.6rem;
@@ -66,7 +117,7 @@
   
   .button-white{
     background-color: #ffff; /* blue */
-    border: .2rem solid #608AED;
+    border: .05rem solid #608AED;
     border-radius: .25em;
     color: #608AED;
     
@@ -78,6 +129,21 @@
     width: 17rem;
    
    margin: 6rem auto 13rem auto; 
+
+
+   &:hover {
+		transform: translateY(-20px);
+		background-position: center 100%;
+		background-size: 105%;
+		box-shadow: 0px 0px 20px 0px rgba(#777777, 0.6);
+
+		.card__button {
+			transform: translateY(0%);
+			color: #027090;
+
+			transition: all 0.3s;
+		}
+	}
   }
 
   .seven-a{

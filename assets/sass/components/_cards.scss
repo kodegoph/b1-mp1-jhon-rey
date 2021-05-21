@@ -7,6 +7,22 @@
     flex-direction: column;
     justify-content: space-between;
     margin: 1rem auto;
+
+
+
+    &:hover {
+		transform: translateY(-20px);
+		background-position: center 100%;
+		background-size: 105%;
+		box-shadow: 0px 0px 20px 0px rgba(#777777, 0.6);
+
+		.card__button {
+			transform: translateY(0%);
+			color: #027090;
+
+			transition: all 0.3s;
+		}
+	}
 }
 
 .highlighted-cards{
@@ -19,6 +35,21 @@
     justify-content: space-between;
     color: white;
     margin: 1rem auto;
+
+
+    &:hover {
+		transform: translateY(-20px);
+		background-position: center 100%;
+		background-size: 105%;
+		box-shadow: 0px 0px 20px 0px rgba(#777777, 0.6);
+
+		.card__button {
+			transform: translateY(0%);
+			color: #027090;
+
+			transition: all 0.3s;
+		}
+	}
 }
 .transparent-cards{
     margin-bottom: 16.6rem;
@@ -42,6 +73,21 @@
     padding: 3.2rem;
     border-radius: 1rem;
     margin: 1rem auto;
+
+
+    &:hover {
+		transform: translateY(-20px);
+		background-position: center 100%;
+		background-size: 105%;
+		box-shadow: 0px 0px 20px 0px rgba(#777777, 0.6);
+
+		.card__button {
+			transform: translateY(0%);
+			color: #027090;
+
+			transition: all 0.3s;
+		}
+	}
 }
 .testimonials__profiles img{
     display: block;
@@ -59,6 +105,7 @@
     // line-height: 3.2rem;
     margin-bottom: 1rem;
 }
+
 .card-seven{
     padding: 3.2rem;
     background-color: #333333;
@@ -66,6 +113,20 @@
     max-height: 44.8rem;
     height: 100%;
     margin: 1rem auto;
+
+    &:hover {
+		transform: translateY(-20px);
+		background-position: center 100%;
+		background-size: 105%;
+		box-shadow: 0px 0px 20px 0px rgba(#777777, 0.6);
+
+		.card__button {
+			transform: translateY(0%);
+			color: #027090;
+
+			transition: all 0.3s;
+		}
+	}
 }
 .card-seven h3{
     color: #FFFFFF;
@@ -78,26 +139,56 @@
     margin-bottom: 2rem;
 }
 .card-seven__second img{
-    width: 37rem;
+    // width: 37rem;
     height: 22.4rem;
     // background-color: #D8D8D8;
 }
 .card-seven__upper{
-    max-width: 37rem;
-    width: 100%;
+    // max-width: 37rem;
+    // width: 100%;
     height: 22.4rem;
     background-color: #D8D8D8;
     margin: 1rem auto;
+
+
+    &:hover {
+		transform: translateY(-20px);
+		background-position: center 100%;
+		background-size: 105%;
+		box-shadow: 0px 0px 20px 0px rgba(#777777, 0.6);
+
+		.card__button {
+			transform: translateY(0%);
+			color: #027090;
+
+			transition: all 0.3s;
+		}
+	}
 }
 .second__details{
     padding: 2rem;
     padding-top: 3rem;
     background-color: #FFFFFF;
     padding-bottom: 5rem;
-    max-width: 37rem;
-    width: 100%;
+    // max-width: 37rem;
+    // width: 100%;
     height: 22.4rem;
     margin: 1rem auto;
+
+
+    &:hover {
+		transform: translateY(-20px);
+		background-position: center 100%;
+		background-size: 105%;
+		box-shadow: 0px 0px 20px 0px rgba(#777777, 0.6);
+
+		.card__button {
+			transform: translateY(0%);
+			color: #027090;
+
+			transition: all 0.3s;
+		}
+	}
 }
 .second__details h3{
     margin-top: 2rem;
@@ -108,6 +199,21 @@
     margin: 1rem auto;
     margin-bottom: 2rem;
     padding-bottom: 9rem;
+
+
+    &:hover {
+		transform: translateY(-20px);
+		background-position: center 100%;
+		background-size: 105%;
+		box-shadow: 0px 0px 20px 0px rgba(#777777, 0.6);
+
+		.card__button {
+			transform: translateY(0%);
+			color: #027090;
+
+			transition: all 0.3s;
+		}
+	}
 
 }
 
@@ -125,18 +231,9 @@ margin-top: 2rem;
 .grey{
     color: #C4C4C4;
 }
-.contact-blue{
-    background-color: #959DD2;
-    border-radius: .5rem;
-}
 
-.contact-pink{
-    background-color: #F18990;
-    border-radius: .5rem;
-}
-.contact-pink img{
-    max-width: 30rem;
-    max-height: 24rem;
-    width: auto;
-    height: auto;
+@media screen and (max-width: 576px) {
+    .testimonial__p{
+        height: auto;
+    }
 }
