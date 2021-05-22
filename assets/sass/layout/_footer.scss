@@ -7,6 +7,9 @@ footer{
     padding-top: 5rem;
     // text-align: right;
 }
+.footer-menu li{
+    color: #ffff;
+}
 
 .footer-logo h2, .footer-menu ul li,  .footer-menu ul span, .footer-service ul li, .closing__two p{
     &:hover {

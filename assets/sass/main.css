@@ -167,6 +167,10 @@ a {
           justify-content: space-between;
 }
 
+.margin-center {
+  margin: 0 auto;
+}
+
 .hover-five:hover {
   -webkit-transform: translateY(7px);
           transform: translateY(7px);
@@ -982,6 +986,7 @@ header {
   width: 100%;
   max-width: 50rem;
   margin-top: auto;
+  margin: 0 auto;
 }
 
 .hero__main {
@@ -1362,6 +1367,10 @@ footer {
   padding-top: 5rem;
 }
 
+.footer-menu li {
+  color: #ffff;
+}
+
 .footer-logo h2:hover, .footer-menu ul li:hover, .footer-menu ul span:hover, .footer-service ul li:hover, .closing__two p:hover {
   -webkit-transform: translateY(7px);
           transform: translateY(7px);
@@ -1519,5 +1528,9 @@ footer {
 
 .show {
   display: block;
+}
+
+nav a {
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
