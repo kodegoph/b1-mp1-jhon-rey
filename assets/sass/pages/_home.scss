@@ -33,6 +33,9 @@
   display: block;
 }
 
+.dropbtn{
+    display: none;
+}
 // .hero__profile{
 //     position: relative;
 // }
@@ -206,6 +209,14 @@
   margin: 1rem;
   border-radius: 1rem;
 }
+
+
+@media screen and (min-width: 768px) {
+    .hero-info_background{
+        padding:7rem 1rem;
+    }
+}
+
 .hero-six__infos {
   // background-color: #959DD2;
   color: #ffffff;
@@ -299,10 +310,19 @@
   margin-top: 20rem;
 }
 
+@media screen and (min-width: 768px) {
+    .hero-info_background{
+        padding:7rem 1rem;
+    }
+}
+
 @media screen and (max-width: 576px) {
   nav {
     display: none;
   }
+  .dropbtn{
+    display: block;
+}
   .header__btn {
     display: none;
   }

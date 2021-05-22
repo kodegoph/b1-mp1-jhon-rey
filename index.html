@@ -16,19 +16,22 @@
       href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300&family=Lato&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/sass/main.css" />
+ 
   </head>
+
+
   <body>
-
-
     <section id="hero" class="hero">
       <header>
         <div class="container">
           <div class="row">
             <div class="column column-sm-4">
               <div class="logo_head d-flex">
-                <h2>DOC</h2>
-                <img src="./assets/img_two/nav menu.png" alt="">
+                
+                <h2 class="logo-font">DOC</h2>
+                
               </div>
             </div>
             <div class="column column-sm-4">
@@ -57,10 +60,24 @@
         <!-- container -->
       </header>
       <div class="container">
-        <div class="row">
-          <div class="column column-xl-6">
+        <div class="row align-center">
+          <div class="column column-xl-6 ">
             <div class="hero__main">
-              <p>DOCTOR</p>
+              <div class="d-flex justify_space-between">
+                <p>DOCTOR</p>
+
+              <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">--</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#home">Home</a>
+                  <a href="#about">About</a>
+                  <a href="#home">Blog</a>
+                  <a href="#contact">Contact</a>
+                  <a href="#home">Services</a>
+                </div>
+              </div>
+              </div>
+              
 
               <h1>Your Personal Doctor</h1>
               <p>
@@ -71,12 +88,13 @@
               <a href="#" target="_blank">
                 <button class="button-pink">Make Appointment</button>
               </a>
+              
             </div>
           </div>
           <div class="column column-xl-6" style="padding-top:">
             <!-- <img src="./assets/img/profile4.jpg" alt=""> -->
             <div class="hero__img" style=>
-              <img src="./assets/img/doctor.png" alt="" />
+              <img src="./assets/img/Doctor image.png" alt="" />
             </div>
           </div>
         </div>
@@ -218,14 +236,14 @@
 
 
         <div class="row hero-four__second">
-          <div class="column column-sm-7">
+          <div class="column column-xl-7">
             <div class="service-img">
               <img src="./assets/img_two/you are in good hands.png" alt="" />
             </div>
           </div>
           <!-- column -->
 
-          <div class="column column-sm-5">
+          <div class="column column-xl-5">
             <div class="hero-four__contents">
               <p>SERVICE</p>
               <h2>You Are In Good Hands</h2>
@@ -258,7 +276,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="column column-sm-3">
+          <div class="column column-xl-3 column-md-6">
             <div class="cards-testimonials">
               <i class="fas fa-quote-right fa-6x"></i>
               <div class="testimonial__p">
@@ -284,7 +302,7 @@
             </div>
           </div>
           <!-- column -->
-          <div class="column column-sm-3">
+          <div class="column column-xl-3 column-md-6">
             <div>
               <div class="cards-testimonials">
                 <i class="fas fa-quote-right fa-6x"></i>
@@ -312,7 +330,7 @@
             </div>
           </div>
           <!-- column -->
-          <div class="column column-sm-3">
+          <div class="column column-xl-3 column-md-6">
             <div>
               <div class="cards-testimonials">
                 <i class="fas fa-quote-right fa-6x"></i>
@@ -339,7 +357,7 @@
             </div>
           </div>
           <!-- column -->
-          <div class="column column-sm-3">
+          <div class="column column-xl-3 column-md-6">
             <div>
               <div class="cards-testimonials">
                 <i class="fas fa-quote-right fa-6x"></i>
@@ -449,7 +467,7 @@
 
       <div class="container">
         <div class="row  margin-top-botm">
-          <div class="column column-sm-6">
+          <div class="column column-xl-6 column-md-12">
             <div class="hero-six__main">
               <div>
                 <p  class="color-blue">GALLERY</p>
@@ -468,9 +486,9 @@
           </div>
           <!-- column -->
 
-          <div class="column column-sm-6">
+          <div class="column column-xl-6 column-md-12">
             <div class="gallery">
-              <img src="./assets/img_two/clinic photos.png" alt="" />
+              <img src="./assets/img/clinic with images.png" alt="" />
             </div>
           </div>
           <!-- column -->
@@ -611,7 +629,7 @@
         <div class="row center">
           <div class="column column-sm-3">
             <div class="footer-logo">
-              <h2>DOC</h2>
+              <div class="logo-font">DOC</div>
             </div>
           </div>
           <!-- column -->
@@ -674,5 +692,27 @@
 
       <!-- container -->
     </footer>
+
+    <script>
+      /* When the user clicks on the button, 
+      toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+      </script>
   </body>
 </html>
