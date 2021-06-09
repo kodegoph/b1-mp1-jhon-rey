@@ -90,15 +90,14 @@
 
 
     &:hover {
-      transform: translateY(-20px);
+      transform: translateY(-10px);
       background-position: center 100%;
       background-size: 105%;
       box-shadow: 0px 0px 20px 0px rgba(#777777, 0.6);
   
       .card__button {
         transform: translateY(0%);
-        color: #027090;
-  
+        color: #027090;  
         transition: all 0.3s;
       }
     }
