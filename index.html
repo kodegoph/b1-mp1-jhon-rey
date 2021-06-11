@@ -18,6 +18,7 @@
     />
     <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/sass/main.css" />
+    <link rel="stylesheet" href="./assets/sass/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
  
@@ -33,13 +34,20 @@
               <div class="logo_head d-flex">
                 
                 <h2 class="logo-font">DOC</h2>
-                
+                <div class="dropdown">
+                  <button onclick="myFunction()" class="dropbtn">--</button>
+                  
+                </div>
+                <!-- dropdown -->
               </div>
+              <!-- logo -->
             </div>
+            <!-- col -->
             <div class="column column-sm-4">
               <div class="menu">
                 <nav>
                   <ul class="d-flex">
+                    
                     <a href="#hero"><li>About</li></a>
                     <a href="#hero-two"><li>Services</li></a>
                     <a href="#hero-four"><li>Blog</li></a>
@@ -66,24 +74,20 @@
           <div class="column column-xl-6 ">
             <div class="hero__main">
               <div class="d-flex justify_space-between">
-                <p>DOCTOR</p>
-
-              <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">--</button>
+                <p>DOCTOR</p>   
                 <div id="myDropdown" class="dropdown-content">
-                  <a href="#home">Home</a>
-                  <a href="#about">About</a>
-                  <a href="#home">Blog</a>
-                  <a href="#contact">Contact</a>
-                  <a href="#home">Services</a>
-                </div>
-              </div>
+                  <a href="#hero">Home</a>
+                  <a href="#hero">About</a>
+                  <a href="#hero-two">Services</a>
+                  <a href="#hero-four">Blog</a>
+                  <a href="#footer">Contact</a>
+                </div>            
               </div>
               
 
               <h1>Your Personal Doctor</h1>
               <p>
-                The sky was cloudless and of a deep dark blue <br />spectacle
+                The sky was cloudless and of a deep dark blue spectacle
                 before us was indeed sublime.
               </p>
 
@@ -93,9 +97,9 @@
               
             </div>
           </div>
-          <div class="column column-xl-6" style="padding-top:">
+          <div class="column column-xl-6">
             <!-- <img src="./assets/img/profile4.jpg" alt=""> -->
-            <div class="hero__img" style=>
+            <div class="hero__img" >
               <img src="./assets/img/Doctor image.png" alt="" />
             </div>
           </div>
@@ -120,6 +124,9 @@
             was indeed sublime.
           </p>
         </div>
+
+
+        
 
         <div class="row">
           <div class="column column-sm-3">
@@ -169,7 +176,7 @@
             <span>WHY CHOSE ME</span>
             <h2>Explore Features</h2>
             <p>
-              The sky was cloudless and of a deep dark blue <br />
+              The sky was cloudless and of a deep dark blue 
               before us was indeed sublime.
             </p>
           </div>
@@ -232,7 +239,7 @@
       </div>
     </section>
 
-
+<!-- service you are in good hands -->
     <section  id="hero-four" class="hero-four">
       <div class="container">
 
@@ -263,7 +270,7 @@
       </div>
       <!-- container -->
     </section>
-
+<!-- testimonials our cliants say -->
     <section data-aos="fade-up" data-aos-duration="3000" id="hero-five" class="hero-five">
       <!-- hero 5 heading -->
       <div class="container">
@@ -276,9 +283,150 @@
               was indeed sublime.
             </p>
           </div>
+          <!-- hero five heading -->
         </div>
+        <!-- row -->
+ <!-- carousel -->
+<!-- carousel -->
         <div class="row">
-          <div class="column column-xl-3 column-md-6">
+          <div class="column column-xs-12">
+
+            <div class="carousel_div">
+
+              <div id="myModal" class="modal">
+                <span onclick="closePopup()" class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+              </div>
+            
+              <div class="nw">
+                <div class="slideshow-container">
+            
+                  <div class="mySlides fade one">
+                    <div class="numbertext">1 / 4</div>
+                    <div class="cards-testimonials" data-aos="flip-left" data-aos-duration="1500">
+                      <i class="fas fa-quote-right fa-6x"></i>
+                      <div class="testimonial__p">
+                        <p>
+                          "Even the all-powerful Pointing has no control about the blind
+                          texts it is an almost unorthographic life One day however a
+                          small line."
+                        </p>
+                      </div>
+                      <div class="d-flex testimonials__profiles">
+                        <img src="./assets/img/profile1.jpg" alt="" />
+                        <div>
+                          <p>Artem Sazonov</p>
+                          <div class="stars">
+                            <i class="fas fa-star fa-lg"></i>
+                            <i class="fas fa-star fa-lg"></i>
+                            <i class="fas fa-star fa-lg"></i>
+                            <i class="fas fa-star fa-lg"></i>
+                            <i class="fas fa-star fa-lg"></i>
+                          </div>
+                          <!-- stars -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="mySlides fade">
+                    <div class="numbertext">2 / 4</div>
+                    <div class="cards-testimonials" data-aos="flip-left" data-aos-duration="1500">
+                      <i class="fas fa-quote-right fa-6x"></i>
+                      <div class="testimonial__p">
+                        <p>
+                          "Has no control about the blind texts it is an almost
+                          unorthographic."
+                        </p>
+                      </div>
+                      <div class="d-flex testimonials__profiles">
+                        <img src="./assets/img/profile2.png" alt="" />
+                        <div>
+                          <p>Chioke Chinasa</p>
+                          <div class="stars">
+                            <i class="fas fa-star fa-lg"></i>
+                            <i class="fas fa-star fa-lg"></i>
+                            <i class="fas fa-star fa-lg"></i>
+                            <i class="fas fa-star fa-lg"></i>
+                            <i class="fas fa-star fa-lg"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="mySlides fade">
+                    <div class="numbertext">3 / 4</div>
+                    <div class="cards-testimonials" data-aos="flip-left" data-aos-duration="1500">
+                      <i class="fas fa-quote-right fa-6x"></i>
+                      <div class="testimonial__p">
+                        <p>
+                          "About the blind texts it is an almost unorthographic life
+                          One day however a small line of blind text by the name."
+                        </p>
+                      </div>
+                      <div class="d-flex testimonials__profiles">
+                        <img src="./assets/img/profile3.jpg" alt="" />
+                        <div>
+                          <p>Huo Shu</p>
+                          <div class="stars">
+                            <i class="fas fa-star fa-lg"></i>
+                            <i class="fas fa-star fa-lg"></i>
+                            <i class="fas fa-star fa-lg"></i>
+                            <i class="fas fa-star fa-lg"></i>
+                            <i class="fas fa-star fa-lg"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            
+                  <div class="mySlides fade">
+                    <div class="numbertext">4 / 4</div>
+                    <div class="cards-testimonials" data-aos="flip-left" data-aos-duration="1500">
+                      <i class="fas fa-quote-right fa-6x"></i>
+                      <div class="testimonial__p">
+                        <p>
+                          "One day however a small line of blind text by the name of
+                          Lorem Ipsum."
+                        </p>
+                      </div>
+                      <div class="d-flex testimonials__profiles">
+                        <img src="./assets/img/profile4.jpg" alt="" />
+                        <div>
+                          <p>Jontray Arnold</p>
+                          <div class="stars">
+                            <i class="fas fa-star fa-lg"></i>
+                            <i class="fas fa-star fa-lg"></i>
+                            <i class="fas fa-star fa-lg"></i>
+                            <i class="fas fa-star fa-lg"></i>
+                            <i class="fas fa-star fa-lg"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  
+                  </div>
+                  <br>
+              </div>
+            </div>
+            
+          
+
+
+          </div>
+          <!-- column -->
+        </div>
+        <!-- row -->
+<!-- carousel -->
+<!-- carousel -->
+        <div class="row testimonal_group">
+          <div class="column column-xl-3 column-md-6 ">
             <div class="cards-testimonials" data-aos="flip-left" data-aos-duration="1500">
               <i class="fas fa-quote-right fa-6x"></i>
               <div class="testimonial__p">
@@ -299,9 +447,12 @@
                     <i class="fas fa-star fa-lg"></i>
                     <i class="fas fa-star fa-lg"></i>
                   </div>
+                  <!-- stars -->
                 </div>
               </div>
             </div>
+            <!-- testimonial cards -->
+            <!-- artem -->
           </div>
           <!-- column -->
           <div class="column column-xl-3 column-md-6">
@@ -695,26 +846,8 @@
       <!-- container -->
     </footer>
 
-    <script>
-      /* When the user clicks on the button, 
-      toggle between hiding and showing the dropdown content */
-      function myFunction() {
-        document.getElementById("myDropdown").classList.toggle("show");
-      }
+    <script src="./script.js">
       
-      // Close the dropdown if the user clicks outside of it
-      window.onclick = function(event) {
-        if (!event.target.matches('.dropbtn')) {
-          var dropdowns = document.getElementsByClassName("dropdown-content");
-          var i;
-          for (i = 0; i < dropdowns.length; i++) {
-            var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains('show')) {
-              openDropdown.classList.remove('show');
-            }
-          }
-        }
-      }
       </script>
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script>
